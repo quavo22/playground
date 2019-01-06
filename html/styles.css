@@ -1,0 +1,23 @@
+body {
+    background-color: green;
+}
+div{
+    background-color: azure;
+}
+header{
+    display: block;
+}
+ul{
+    text-decoration: none;
+}
+li {
+    display: inline-grid;
+    padding: 3px;
+    margin: 20PX;
+    background: grey;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
