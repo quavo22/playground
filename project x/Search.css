@@ -1,0 +1,62 @@
+.LBSContent {
+    position: relative;
+    top: 0;
+    border-bottom: 1px solid #fff;
+    height: 25px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5px;
+    background-color: forestgreen;
+}
+
+.LBSContent div {
+    float: left;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    line-height: 26px;
+}
+
+.sml {
+    position: relative;
+    top: 2px;
+    width: 38px;
+    height: 2px;
+}
+
+.sml a:hover {
+    background: darkgreen;
+}
+
+ .lnk{
+    border-top: 1px solid #62bb7d;
+    border-radius: 2px;
+    background: #31a554;
+    background: -moz-linear-gradient(top, #31a554 0%, #289549 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#31a554), color-stop(100%,#289549));
+    background: -webkit-linear-gradient(top, #31a554 0%,#289549 100%);
+    background: -o-linear-gradient(top, #31a554 0%,#289549 100%);
+    background: -ms-linear-gradient(top, #31a554 0%,#289549 100%);
+    background: linear-gradient(to bottom, #31a554 0%,#289549 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31a554', endColorstr='#289549',GradientType=0 );
+    line-height: 20px;
+    height: 19px;
+    width: 30px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.TitleCerca {
+    display: none;
+}
+
+.Clear {
+    clear: both;
+}

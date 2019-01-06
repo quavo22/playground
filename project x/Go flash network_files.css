@@ -1,0 +1,266 @@
+body {
+    background: -moz-linear-gradient(top,#111E0A 0,#1A4500 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#111E0A),color-stop(100%,#1A4500));
+    background: -webkit-linear-gradient(top,#111E0A 0,#1A4500 100%);
+    background: -o-linear-gradient(top,#111E0A 0,#1A4500 100%);
+    background: -ms-linear-gradient(top,#111E0A 0,#1A4500 100%);
+    background: linear-gradient(to bottom,#111E0A 0,#1A4500 100%);
+}
+
+/*header {
+    background-color: gainsboro;
+    margin-bottom: 5px;
+    color: white;
+    padding-bottom: 5px;
+}*/
+
+.container {
+    width: 1000px auto;
+    margin: 0;
+}
+
+li {
+   list-style: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-family: -moz-sans-serif;
+}
+
+.nav_menu {
+    margin: 0 0 0 10.2em;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+.nav_menu li {
+   float: left;
+   position: relative;
+   min-width: 6em;
+   margin: 2px; 
+   font-size: bold; 
+    
+}
+
+.nav_menu li a{
+    background-color: forestgreen;
+    display: block;
+    float: right;
+    padding: 0.2em;
+    color: whitesmoke;
+    padding: 2px;
+    margin: 0;
+    padding-left: 3px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: inset 0 2px 8px darkgreen;
+}
+
+.nav_menu a{
+    margin: 2px;
+    min-width: 5em;
+}
+
+.nav_menu a:hover {
+    color: darkgreen;
+    font-weight: bold;
+    background-color: gainsboro;
+}
+
+.nav_menu a:focus {
+    color: darkgreen;
+    font-weight: bolder;
+    background-color: gainsboro;
+    transform: scale(1.2,1.3);
+}
+
+#gf{
+    position: absolute;
+    color: darkgreen;
+    font-weight: bolder;
+    display: block;
+    background-color: gainsboro;
+    padding: 3px 0;
+    width: 146px;
+    margin: 0 auto;
+    top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #00923F;
+    
+}
+
+.smPanel 
+.menuContainer {
+    background-color: forestgreen;
+    box-shadow: inset 0 4px 8px darkgreen;
+    margin: 0 3px 3px 0;  
+}
+
+.smPanel ul {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.smPanel 
+.menuContainer 
+.marketMenu 
+.MarketTag {
+    border-bottom: 1px solid #fff;
+}
+
+.smPanel 
+.menuContainer 
+.marketMenu 
+.MarketTag > 
+.head {
+    position: relative;
+    color: white;
+    font-weight: 700;
+    list-style: none;
+}
+
+.smPanel 
+.menuContainer 
+.marketMenu 
+.head 
+.nameMarket{
+    line-height: 29px;
+    width: 106px;
+    padding: 0 5px 0 10px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.smPanel 
+.menuContainer 
+.marketMenu 
+.MarketTag > 
+.head 
+.marketCount {
+    padding: 5px;
+    position: absolute;
+    top: 3px;
+    bottom: 5px;
+    right: 7px;
+    font-size: 12px;
+}
+
+.StudentMenu {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.StudentMenu ul li a {
+    display:block;
+    background: #ccc;
+    box-shadow: inset 0 4px 8px gainsboro;
+    color:darkgreen; 
+    font-weight: 500;
+    font-family: cursive;
+    border-bottom:1px solid green;
+    text-decoration:none;
+    line-height:25px;
+    padding: 0 0 0 10px;
+}
+
+.smg {
+    padding: 5px;
+    position: absolute;
+    left: 11.5em;
+}
+
+footer {
+    height: 70px;
+    z-index: 100;
+    width: 1000px;
+    background-color: darkgreen;
+    border-top: 8px solid gainsboro;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-nav_menu li{
+  min-width: 2em;
+  float: right;
+  margin-right: 0.5em;
+  margin-left: 10px;
+  text-align: center; 
+}
+
+.Gflash-footer{
+     position: absolute;
+     float: left;
+     height: 20px;
+     color: #fff;
+     font-weight: 100px;
+     margin: 10px 0;
+     padding: 5px;
+}
+
+.footer-nav_menu{
+    height: 58px;
+    width: 960px;
+    position: relative;
+    margin: auto; 
+}
+
+.footer-nav_menu a{
+   padding: 0.2em;
+   color: white;
+   text-decoration: none;
+   font-weight: 5px;
+   margin: 0 0 0.2em 0;
+}
+
+.footer-nav_menu a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+.Gflash-footer-links {
+    float: right;
+    height: 20px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.Copyright {
+    position: absolute;
+    color: whitesmoke;
+    right: 5px;
+    bottom: 2px;
+    font-weight: 550;
+    font-size: 11px;
+}
+
+#btt {
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    bottom: 3px;
+    left: 27em;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    box-shadow: inset 0 2px 8px green;
+    height: 18px;
+    width: 100px;
+}
+
+#btt a{
+    color: green;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.clear {
+    clear: both;
+}

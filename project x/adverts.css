@@ -1,0 +1,34 @@
+.gfa {
+    position: relative;
+    background-color: green;
+    bottom: 0;
+    float: left;
+    margin: 2px 0 0 0;
+    border: 2px solid green;
+    -moz-border: 2px solid green;
+}
+.gfa img{
+    margin: 6px 0 0 0;
+    width: 212px; 
+}
+
+.gfa h4 {
+    margin: 0 0 10px 0;
+    padding: 3px;
+    top: 0 auto;
+    padding-left: 3px;
+    line-height: 26px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    
+}
+h4{
+    padding: 10px;
+    width: 208px; 
+    text-transform: uppercase;
+    background-color: darkgreen;
+     box-shadow: inset 0 3px 8px forestgreen;
+    color: white;
+}

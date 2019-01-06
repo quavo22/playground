@@ -1,0 +1,66 @@
+.loggedMenu {
+    position: relative;
+    top: 15.2em;
+}
+
+.loggedMenu ul{
+   margin: 0;
+   padding:0;
+   list-style-type:none;
+}
+
+.loggedMenu ul li a{
+    width: 206px;
+    display:block;
+    background-color: darkgreen;
+    box-shadow: inset 0 2px 8px forestgreen;
+    color:#FFF;
+    margin: 0; 
+    text-decoration: none;
+    line-height:25px;
+    padding-left:10px;
+}
+
+.loggedMenu ul li ul li a{
+    display:block;
+    background: #ccc;
+    box-shadow: inset 0 4px 8px gainsboro;
+    color:black;
+    font-weight: 100px;
+    border-bottom:1px solid green;
+    text-decoration:none;
+    line-height:25px;
+    padding-left:10px;
+}
+
+/*.homeLoggedMenu{
+display:inline-block;
+width:165px;
+padding:50px 10px 10px 10px;
+vertical-align:top
+}
+
+.homeLoggedMenu ul{
+margin:0;
+padding:0;
+list-style-type:none
+}
+
+.homeLoggedMenu ul li a{
+display:block;
+background-color:#313031;
+color:#FFF;
+text-decoration:none;
+line-height:25px;
+padding-left:10px
+}
+
+.homeLoggedMenu ul li ul li a{
+display:block;
+background-color:#FFF;
+color:#000;
+border-bottom:1px solid #CCC;
+text-decoration:none;
+line-height:25px;
+padding-left:10px
+}

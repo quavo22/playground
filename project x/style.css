@@ -1,0 +1,294 @@
+body{
+    background-color: black;
+}
+.container_TopMenu {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #2d3132;
+    background: #111e0a;
+    background: -moz-linear-gradient(top,#111e0a 0,#1a4500 11%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#111e0a),color-stop(11%,#1a4500));
+    background: -webkit-linear-gradient(top,#111e0a 0,#1a4500 11%);
+    background: -o-linear-gradient(top,#111e0a 0,#1a4500 11%);
+    background: -ms-linear-gradient(top,#111e0a 0,#1a4500 11%);
+    background: linear-gradient(to bottom,#111e0a 0,#1a4500 11%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#111e0a', endColorstr='#1a4500', GradientType=0);
+}
+
+.topMenu {
+    position: absolute;
+    width: 990px;
+}
+
+li {
+    list-style: none;
+
+}
+
+
+.linker a{
+   padding: 0.2em;
+   color: white;
+   text-decoration: none;
+   font-weight: 5px;
+   margin: 0 0 0.2em 0;
+}
+
+.linker li {
+    float: right;
+    margin-right: 19px;
+    height: 20px;
+    color: #fff;
+}
+
+.homeShop .boxInserimento > div.login {
+    font-size: large;
+}
+
+.divMainHome {
+    width: 1024px;
+    margin: 0 auto;
+    top: 97px;
+}
+
+#divMain {
+    width: 990px;
+    height: 630px;
+    margin: 0;
+    background-image:url(world-map-with-global-technology-or-social-connection-network-with-nodes-and-links-vector-illustration_1284-1968.jpg);
+    background-repeat:no-repeat; 
+    background-size: 990px;
+    background-color: green;
+    background-blend-mode: color-dodge;
+    background-position: left;
+}
+
+.bodyMain #divContent {
+    min-height: 700px;
+}
+
+.Anonymous .homeShop {
+    display: block;
+    padding: 0;
+}
+
+.homeShop {
+    display: inline-block;
+    width: 800px;
+    margin: 0 auto;
+    padding-left: 12px;
+    vertical-align: top;
+}
+
+.homeShop .boxInserimento {
+    overflow: hidden;
+}
+
+.homeShop .boxInserimento > div.login {
+    font-size: large;
+    margin-left: 15em;
+    margin-top: 10em;
+}
+
+.homeShop .boxInserimento > div {
+    width: 390px; 
+    vertical-align: top;
+}
+
+.homeShop .boxInserimento > div.login .LoginTitle {
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+    background: -webkit-linear-gradient(top,#111e0a 0,#1a4500 11%);
+    line-height: 29px;
+    height: 29px;
+    margin-top: 1px;
+    font-size: large;
+}
+
+.homeShop .boxInserimento > div.login {
+    font-size: large;
+}
+
+.homeShop .boxInserimento > div.login .LoginTitle {
+    color: #fff;
+    font-weight: 700;
+    line-height: 29px;
+    font-size: large;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged {
+    background-color: lightgreen;
+    padding: 15px;
+    height: 163px;
+}
+
+.divRegMain {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding-top: 0;
+    height: 0;
+}
+
+.homeShop .boxInserimento a {
+    text-decoration: none;
+    font-size: medium;
+    color: #1d6b2f;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .RegLostPwd {
+    position: absolute;
+    top: 90px;
+    background-color: palegreen;
+}
+
+.RegLostPwd {
+    position: absolute;
+    top: 30px;
+    font-size: 11px;
+}
+
+.homeShop .boxInserimento a {
+    text-decoration: none;
+    font-size: medium;
+    color: #1d6b2f;
+}
+
+.RegLostPwd a {
+    color: #34d508;
+}
+
+.RegLostPwd {
+    font-size: 11px;
+}
+
+.RegLblUsr {
+    display: none;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .RegTxtUsr {
+    float: none;
+    position: absolute;
+    top: 0;
+}
+
+.RegTxtUsr {
+    position: relative;
+    padding-top: 0;
+    height: 24px;
+    float: left;
+    white-space: nowrap;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged input[type="text"], .homeShop .boxInserimento > div.login .pnlLogged input[type="password"] {
+    width: 358px;
+    height: 30px;
+    line-height: 30px;
+    font-size: large;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .txtLogin {
+    background: 0 0;
+    color: white;
+}
+
+.txtLogin {
+    width: 96px;
+    height: 21px;
+    line-height: 16px;
+    border: 1px solid #555;
+    background: linear-gradient(to bottom,#2d2d2d 0,#101010 100%) repeat scroll 0 0 transparent;
+    color: #fff;
+    font-size: 11px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    float: none;
+    background-color: #000;
+}
+
+.RegTxtPwd span, .RegTxtUsr span {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+
+.RegTxtUsr {
+    white-space: nowrap;
+}
+
+.imgError {
+    margin: 0 2px 0 2px;
+}
+
+.RegLblPwd {
+    display: none;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .RegTxtPwd {
+    float: none;
+    position: absolute;
+    top: 45px;
+}
+
+.RegTxtPwd {
+    position: relative;
+    padding-top: 0;
+    height: 24px;
+    float: left;
+    white-space: nowrap;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .RegDivBtn {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    float: none;
+    background-color: #fff;
+}
+
+.RegDivBtn {
+    float: right;
+    position: relative;
+    bottom: 0;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .RegDivBtn .btnLogin {
+    height: 40px;
+    line-height: 40px;
+    background: linear-gradient(to bottom,#2c8017 0,#19450c 100%) repeat scroll 0 0 transparent;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.homeShop .boxInserimento > div.login .pnlLogged .RegDivBtn a {
+    width: auto;
+    color: #fff;
+}
+
+.homeShop .boxInserimento a {
+    text-decoration: none;
+    font-size: medium;
+    color: #1d6b2f;
+}
+
+.btnLogin {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 12px;
+    height: 21px;
+    width: 57px;
+    display: block;
+    text-align: center;
+    line-height: 21px;
+    margin: 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: linear-gradient(to bottom,#2d2d2d 0,#101010 100%) repeat scroll 0 0 transparent;
+}
